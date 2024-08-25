@@ -1,0 +1,18 @@
+workdir: /tmp
+
+with:
+  - ./IXI_datagrabber_custom.py
+
+datagrabber:
+   kind: CustomIXIDataGrabber
+   datadir: /home/hsreekri/projects/IXI_CAT12.5/IXI
+
+markers:
+  - name: Schaefer100x17_counts
+    kind: ParcelAggregation
+    parcellation: Schaefer100x17
+    method: count
+
+storage:
+    kind: HDF5FeatureStorage
+    uri: /home/hsreekri/Julearn_predictions/parcellations.hdf5
