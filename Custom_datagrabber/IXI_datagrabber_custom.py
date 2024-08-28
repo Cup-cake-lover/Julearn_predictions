@@ -9,7 +9,7 @@ class CustomIXIDataGrabber(PatternDataGrabber):
         patterns = {
             "VBM_GM": {
                 "pattern": "{site}/{subject}/mri/m0wp1{subject}.nii.gz",
-                "space": "MNI152NLin2009cAsym",  # Assuming native space for the T1w data
+                "space": "MNI152NLin2009cAsym",  
             }
         }
         replacements = ["site", "subject"]
