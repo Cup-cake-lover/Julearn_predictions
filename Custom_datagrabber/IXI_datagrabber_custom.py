@@ -5,11 +5,11 @@ from junifer.datagrabber import PatternDataGrabber
 @register_datagrabber
 class CustomIXIDataGrabber(PatternDataGrabber):
     def __init__(self, datadir: str | Path) -> None:
-        types = ["T1w"]
+        types = ["VBM_GM"]
         patterns = {
-            "T1w": {
+            "VBM_GM": {
                 "pattern": "{site}/{subject}/mri/m0wp1{subject}.nii.gz",
-                "space": "native",  # Assuming native space for the T1w data
+                "space": "MNI152NLin2009cAsym",  # Assuming native space for the T1w data
             }
         }
         replacements = ["site", "subject"]
