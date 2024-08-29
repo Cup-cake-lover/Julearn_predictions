@@ -1,23 +1,23 @@
 workdir: /tmp
 
 with:
-  - ./IXI_datagrabber_custom.py
-  - ./gmprob_mask_custom.py
+  - /home/hsreekri/Julearn_predictions/Custom_datagrabber/gmprob_mask_custom.py
+  - /home/hsreekri/Julearn_predictions/Custom_datagrabber/IXI_datagrabber_custom.py
   
 datagrabber:
    kind: CustomIXIDataGrabber
    datadir: /home/hsreekri/projects/IXI_CAT12.5/IXI
 
 markers:
-  - name: Schaefer100x17_counts
+  - name: Schaefer100x17_mean
     kind: ParcelAggregation
     parcellation: Schaefer100x17
-    method: count
+    method: mean
     masks: "GMProb_0.2_custom"
 
 storage:
     kind: HDF5FeatureStorage
-    uri: /data/group/riseml/hsreeki/IXI_parcellation_data/IXI_parcellations_Sch100.hdf5
+    uri: /data/group/riseml/hsreeki/IXI_parcellation_means/IXI_parcellations_Sch100mean.hdf5
 
 queue:
   jobname: HCP_VBM_GM_ParcellationComputation_IXI
