@@ -1,0 +1,17 @@
+fit_time,score_time,estimator,test_balanced_accuracy,train_balanced_accuracy,test_accuracy,train_accuracy,n_train,n_test,repeat,fold,cv_mdsum,model
+1.401740312576294,0.00457763671875,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('gradientboost',
+                 GradientBoostingClassifier(learning_rate=0.02))])",0.6535308953341741,0.8289783829727575,0.6504424778761062,0.8298816568047337,676,226,0,0,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_GB_100
+1.5970752239227295,0.004474163055419922,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('gradientboost',
+                 GradientBoostingClassifier(learning_rate=0.02))])",0.6969685070289798,0.8298992673992673,0.6858407079646017,0.8372781065088757,676,226,0,1,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_GB_100
+1.3552167415618896,0.0038166046142578125,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('gradientboost',
+                 GradientBoostingClassifier(learning_rate=0.02))])",0.6755087209302326,0.8486165662913503,0.6844444444444444,0.8493353028064993,677,225,0,2,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_GB_100
+1.3648407459259033,0.00404667854309082,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('gradientboost',
+                 GradientBoostingClassifier(learning_rate=0.02))])",0.6396965865992414,0.8415702001716256,0.64,0.844903988183161,677,225,0,3,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_GB_100

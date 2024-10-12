@@ -1,0 +1,29 @@
+fit_time,score_time,estimator,test_balanced_accuracy,train_balanced_accuracy,test_accuracy,train_accuracy,n_train,n_test,repeat,fold,cv_mdsum,model
+3.6240172386169434,0.05043745040893555,"OptunaSearchCV(cv=KFold(n_splits=4, random_state=None, shuffle=False),
+               estimator=Pipeline(steps=[('set_column_types',
+                                          SetColumnTypes(X_types={})),
+                                         ('zscore', StandardScaler()),
+                                         ('svm', SVC())]),
+               n_jobs=1,
+               param_distributions={'svm__C': FloatDistribution(high=100.0, log=True, low=0.001, step=None)})",0.7111953612845674,0.9969788519637462,0.7112068965517241,0.9971264367816092,696,232,0,0,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_SVM_1000
+4.078815460205078,0.05912423133850098,"OptunaSearchCV(cv=KFold(n_splits=4, random_state=None, shuffle=False),
+               estimator=Pipeline(steps=[('set_column_types',
+                                          SetColumnTypes(X_types={})),
+                                         ('zscore', StandardScaler()),
+                                         ('svm', SVC())]),
+               n_jobs=1,
+               param_distributions={'svm__C': FloatDistribution(high=100.0, log=True, low=0.001, step=None)})",0.7124637465605711,1.0,0.7112068965517241,1.0,696,232,0,1,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_SVM_1000
+3.603501796722412,0.0560154914855957,"OptunaSearchCV(cv=KFold(n_splits=4, random_state=None, shuffle=False),
+               estimator=Pipeline(steps=[('set_column_types',
+                                          SetColumnTypes(X_types={})),
+                                         ('zscore', StandardScaler()),
+                                         ('svm', SVC())]),
+               n_jobs=1,
+               param_distributions={'svm__C': FloatDistribution(high=100.0, log=True, low=0.001, step=None)})",0.7090389102129901,1.0,0.7068965517241379,1.0,696,232,0,2,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_SVM_1000
+3.9119009971618652,0.05842781066894531,"OptunaSearchCV(cv=KFold(n_splits=4, random_state=None, shuffle=False),
+               estimator=Pipeline(steps=[('set_column_types',
+                                          SetColumnTypes(X_types={})),
+                                         ('zscore', StandardScaler()),
+                                         ('svm', SVC())]),
+               n_jobs=1,
+               param_distributions={'svm__C': FloatDistribution(high=100.0, log=True, low=0.001, step=None)})",0.7189527858581338,0.9926587301587302,0.7241379310344828,0.992816091954023,696,232,0,3,bc7087515161a73a5a6aff57863f3803,AOMIC_Histograms_SVM_1000

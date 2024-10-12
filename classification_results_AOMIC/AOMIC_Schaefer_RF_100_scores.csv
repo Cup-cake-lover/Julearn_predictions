@@ -1,0 +1,13 @@
+fit_time,score_time,estimator,test_balanced_accuracy,train_balanced_accuracy,test_accuracy,train_accuracy,n_train,n_test,repeat,fold,cv_mdsum,model
+0.21822190284729004,0.006341457366943359,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('rf', RandomForestClassifier(max_depth=4))])",0.7848360655737705,0.862218834065,0.7876106194690266,0.863905325443787,676,226,0,0,bc7087515161a73a5a6aff57863f3803,AOMIC_Schaefer_RF_100
+0.21983885765075684,0.008248090744018555,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('rf', RandomForestClassifier(max_depth=4))])",0.7305819524071311,0.8468406593406593,0.7212389380530974,0.8535502958579881,676,226,0,1,bc7087515161a73a5a6aff57863f3803,AOMIC_Schaefer_RF_100
+0.21448826789855957,0.006005525588989258,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('rf', RandomForestClassifier(max_depth=4))])",0.7481831395348837,0.8668630531552762,0.7555555555555555,0.8670605612998523,677,225,0,2,bc7087515161a73a5a6aff57863f3803,AOMIC_Schaefer_RF_100
+0.2165849208831787,0.005835771560668945,"Pipeline(steps=[('set_column_types', SetColumnTypes(X_types={})),
+                ('zscore', StandardScaler()),
+                ('rf', RandomForestClassifier(max_depth=4))])",0.7328539823008849,0.8591837270800862,0.7333333333333333,0.8626292466765141,677,225,0,3,bc7087515161a73a5a6aff57863f3803,AOMIC_Schaefer_RF_100
